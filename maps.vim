@@ -62,10 +62,10 @@ nmap <C-w><down> <C-w>-
 
 "------------------------------
 " -- NERDTree --
-nnoremap <c-g> :NERDTreeToggle<CR>
-nnoremap <c-f> :Files<CR>
+nnoremap <F2> :NERDTreeToggle<CR>
+nnoremap <F4> :Files<CR>
 " -- Terminal --
-nnoremap <c-t>	:FloatermToggle<CR>
-tnoremap <c-t>	<C-\><C-n>:FloatermToggle<CR>
+nnoremap <F3>	:FloatermToggle<CR>
+tnoremap <F3>	<C-\><C-n>:FloatermToggle<CR>
 " -- Markdown preview --
 nmap <c-m> <Plug>MarkdownPreviewToggle
