@@ -30,25 +30,25 @@ if has("nvim")
 "  Plug 'windwp/nvim-ts-autotag'
 
   " Terminal
-  Plug 'voldikss/vim-floaterm'
+"  Plug 'voldikss/vim-floaterm'
 
   " File browser: Nerd tree
-  Plug 'preservim/nerdtree'
-  Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"  Plug 'preservim/nerdtree'
+"  Plug 'Xuyuanp/nerdtree-git-plugin'
+"  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
   " Fuzzy finder
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
+"  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"  Plug 'junegunn/fzf.vim'
 
   " Syntax highlight
-  Plug 'yuezk/vim-js' " Javascript
-  Plug 'MaxMEllon/vim-jsx-pretty' " JSX/React
-  Plug 'jackguo380/vim-lsp-cxx-highlight' " C++ syntax
-  Plug 'uiiaoo/java-syntax.vim' " Java
+"  Plug 'yuezk/vim-js' " Javascript
+"  Plug 'MaxMEllon/vim-jsx-pretty' " JSX/React
+"  Plug 'jackguo380/vim-lsp-cxx-highlight' " C++ syntax
+"  Plug 'uiiaoo/java-syntax.vim' " Java
 
   " Markdown preview
-  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+"  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
