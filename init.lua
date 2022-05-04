@@ -19,3 +19,6 @@ require('nvim-tree-config')
 require('lsp-config.language-servers')
 require('lsp-config.lsp-installer')
 require('lsp-config.nvim-cmp')
+
+-- Treesitter
+require('treesitter-config')

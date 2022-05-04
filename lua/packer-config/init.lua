@@ -17,9 +17,6 @@ return require'packer'.startup(function()
   -- File browser
   use 'kyazdani42/nvim-tree.lua'
 
-  -- Notify
-  use 'rcarriga/nvim-notify'
-
   -- LSP
   use 'neovim/nvim-lspconfig'
   use 'williamboman/nvim-lsp-installer'
@@ -28,4 +25,8 @@ return require'packer'.startup(function()
   use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
   use 'onsails/lspkind.nvim'
+
+  -- Treesitter
+  use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+  use 'nvim-treesitter/nvim-treesitter-refactor'
 end)
