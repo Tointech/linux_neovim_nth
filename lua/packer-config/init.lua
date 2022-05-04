@@ -11,6 +11,9 @@ return require'packer'.startup(function()
   -- Statusline
   use 'nvim-lualine/lualine.nvim'
 
+  -- Tabline
+  use 'romgrk/barbar.nvim'
+
   -- File browser
   use 'kyazdani42/nvim-tree.lua'
 

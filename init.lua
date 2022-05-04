@@ -9,6 +9,9 @@ require('colorschemes-config.nightfox')
 -- Statusline
 require('lualine-config')
 
+-- Tabline
+require('barbar-config')
+
 -- File browser
 require('nvim-tree-config')
 
