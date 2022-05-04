@@ -6,6 +6,9 @@ require('packer-config')
 -- Themes
 require('colorschemes-config.nightfox')
 
+-- Statusline
+require('lualine-config')
+
 -- File browser
 require('nvim-tree-config')
 

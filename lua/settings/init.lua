@@ -1,6 +1,8 @@
 -- General settings --
 local set = vim.opt
 
+vim.notify = require("notify")
+
 set.foldmethod = 'marker'
 set.foldlevel = 0
 

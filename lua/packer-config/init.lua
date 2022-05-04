@@ -8,8 +8,14 @@ return require'packer'.startup(function()
   -- Devicons
   use 'kyazdani42/nvim-web-devicons'
 
+  -- Statusline
+  use 'nvim-lualine/lualine.nvim'
+
   -- File browser
   use 'kyazdani42/nvim-tree.lua'
+
+  -- Notify
+  use 'rcarriga/nvim-notify'
 
   -- LSP
   use 'neovim/nvim-lspconfig'
