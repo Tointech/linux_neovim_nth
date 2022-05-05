@@ -29,5 +29,3 @@ set.splitright = true
 set.scrolloff = 5
 set.fileencoding = 'utf-8'
 set.termguicolors = true
-
-vim.notify = require("notify")

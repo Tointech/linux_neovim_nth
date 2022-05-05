@@ -2,7 +2,6 @@ return require'packer'.startup(function()
   use 'wbthomason/packer.nvim' -- Packer
   use 'EdenEast/nightfox.nvim' -- Theme
   use 'kyazdani42/nvim-web-devicons' -- Devicons
-  use 'rcarriga/nvim-notify' -- Notify
   use 'nvim-lualine/lualine.nvim' -- Status line
   use 'romgrk/barbar.nvim' -- Tab line
   use 'kyazdani42/nvim-tree.lua' -- File browser
@@ -10,6 +9,7 @@ return require'packer'.startup(function()
   use 'windwp/nvim-autopairs' -- Auto pairs
   use 'nvim-telescope/telescope.nvim' -- Telescope
   use 'akinsho/toggleterm.nvim' -- Terminal
+  use 'norcalli/nvim-colorizer.lua' -- Colorizer
 
   -- LSP
   use 'neovim/nvim-lspconfig'

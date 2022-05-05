@@ -8,6 +8,7 @@ require('barbar-config') -- Tab line
 require('nvim-tree-config') -- File browser
 require('autopairs-config') -- Auto pairs
 require('toggleterm-config') -- Terminal
+require('colorizer-config') -- Colorizer
 
 -- LSP
 require('lsp-config.language-servers')
