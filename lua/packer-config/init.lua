@@ -1,27 +1,13 @@
 return require'packer'.startup(function()
-  -- Packer
-  use 'wbthomason/packer.nvim'
-
-  -- Themes
-  use 'EdenEast/nightfox.nvim'
-
-  -- Devicons
-  use 'kyazdani42/nvim-web-devicons'
-
-  -- Notify
-  use 'rcarriga/nvim-notify'
-
-  -- Statusline
-  use 'nvim-lualine/lualine.nvim'
-
-  -- Tabline
-  use 'romgrk/barbar.nvim'
-
-  -- File browser
-  use 'kyazdani42/nvim-tree.lua'
-
-  -- Plenary
-  use 'nvim-lua/plenary.nvim'
+  use 'wbthomason/packer.nvim' -- Packer
+  use 'EdenEast/nightfox.nvim' -- Theme
+  use 'kyazdani42/nvim-web-devicons' -- Devicons
+  use 'rcarriga/nvim-notify' -- Notify
+  use 'nvim-lualine/lualine.nvim' -- Status line
+  use 'romgrk/barbar.nvim' -- Tab line
+  use 'kyazdani42/nvim-tree.lua' -- File browser
+  use 'nvim-lua/plenary.nvim' -- Plenary
+  use 'windwp/nvim-autopairs' -- Auto pairs
 
   -- LSP
   use 'neovim/nvim-lspconfig'

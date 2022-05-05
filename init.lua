@@ -2,18 +2,11 @@
 require('settings')
 require('mappings')
 require('packer-config')
-
--- Themes
-require('colorschemes-config.nightfox')
-
--- Statusline
-require('lualine-config')
-
--- Tabline
-require('barbar-config')
-
--- File browser
-require('nvim-tree-config')
+require('colorschemes-config.nightfox') -- Theme
+require('lualine-config') -- Status line
+require('barbar-config') -- Tab line
+require('nvim-tree-config') -- File browser
+require('autopairs-config') -- Auto pairs
 
 -- LSP
 require('lsp-config.language-servers')
