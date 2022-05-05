@@ -183,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/dev.tronghieu/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/dev.tronghieu/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 

@@ -11,6 +11,7 @@ return require'packer'.startup(function()
   use 'akinsho/toggleterm.nvim' -- Terminal
   use 'norcalli/nvim-colorizer.lua' -- Colorizer
   use 'sunjon/shade.nvim' -- Dim inactive windows
+  use 'mg979/vim-visual-multi' -- Multi cursors
 
   -- LSP
   use 'neovim/nvim-lspconfig'
