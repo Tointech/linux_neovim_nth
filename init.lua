@@ -7,6 +7,7 @@ require('lualine-config') -- Status line
 require('barbar-config') -- Tab line
 require('nvim-tree-config') -- File browser
 require('autopairs-config') -- Auto pairs
+require('toggleterm-config') -- Terminal
 
 -- LSP
 require('lsp-config.language-servers')

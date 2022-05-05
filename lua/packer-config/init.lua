@@ -8,6 +8,8 @@ return require'packer'.startup(function()
   use 'kyazdani42/nvim-tree.lua' -- File browser
   use 'nvim-lua/plenary.nvim' -- Plenary
   use 'windwp/nvim-autopairs' -- Auto pairs
+  use 'nvim-telescope/telescope.nvim' -- Telescope
+  use 'akinsho/toggleterm.nvim' -- Terminal
 
   -- LSP
   use 'neovim/nvim-lspconfig'
@@ -23,7 +25,4 @@ return require'packer'.startup(function()
   use 'nvim-treesitter/nvim-treesitter-refactor'
   use 'JoosepAlviste/nvim-ts-context-commentstring'
   use 'tpope/vim-commentary'
-
-  -- Telescope
-  use 'nvim-telescope/telescope.nvim'
 end)
