@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/dev.tronghieu/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["shade.nvim"] = {
+    loaded = true,
+    path = "/home/dev.tronghieu/.local/share/nvim/site/pack/packer/start/shade.nvim",
+    url = "https://github.com/sunjon/shade.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/dev.tronghieu/.local/share/nvim/site/pack/packer/start/telescope.nvim",

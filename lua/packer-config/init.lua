@@ -10,6 +10,7 @@ return require'packer'.startup(function()
   use 'nvim-telescope/telescope.nvim' -- Telescope
   use 'akinsho/toggleterm.nvim' -- Terminal
   use 'norcalli/nvim-colorizer.lua' -- Colorizer
+  use 'sunjon/shade.nvim' -- Dim inactive windows
 
   -- LSP
   use 'neovim/nvim-lspconfig'

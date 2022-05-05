@@ -9,6 +9,7 @@ require('nvim-tree-config') -- File browser
 require('autopairs-config') -- Auto pairs
 require('toggleterm-config') -- Terminal
 require('colorizer-config') -- Colorizer
+require('shade-config') -- Shade
 
 -- LSP
 require('lsp-config.language-servers')
