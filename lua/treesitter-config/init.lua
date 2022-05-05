@@ -1,4 +1,4 @@
-require'nvim-treesitter.configs'.setup {
+require 'nvim-treesitter.configs'.setup {
   -- nvim-treesitter
   ensure_installed = {
     'lua',
@@ -40,12 +40,9 @@ require'nvim-treesitter.configs'.setup {
       },
     },
   },
-<<<<<<< HEAD
 
   -- nvim-treesitter-commentstring
   context_commentstring = {
     enable = true
   },
-=======
->>>>>>> 04b8fae898d83e52717d3f9d9a73f9ca74ceaf3b
 }
